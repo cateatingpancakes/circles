@@ -1,5 +1,5 @@
 Don't forget to make a virtual environment and/or install the requirements, if you don't already have them.
 # Sample outputs
-![outputs/5circles.png]
-![outputs/6circles.png]
-![outputs/7circles.png]
+![5 circles](https://github.com/cateatingpancakes/circles/blob/main/outputs/5circles.png)
+![6 circles](https://github.com/cateatingpancakes/circles/blob/main/outputs/6circles.png)
+![7 circles](https://github.com/cateatingpancakes/circles/blob/main/outputs/7circles.png)
