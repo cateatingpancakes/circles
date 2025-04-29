@@ -1,7 +1,7 @@
 Don't forget to make a virtual environment and/or install the `requirements.txt`, if you don't already have them.
 # Sample outputs
-To produce results for any dimension, run `any_dimension.py`. To produce 2D results, but with a visualization of the solution drawn in matplotlib, run `main.py`.
-# 3 dimensions
+To produce results for any dimension, run `any_dimension.py`. To produce 2D results, but with a visualization of the solution drawn in matplotlib, run `main.py`. Adjust the parameters as needed.
+## 3 dimensions
 The following was an output produced for `CIRCLE_NO=12` and `DIMENSION=3`.
 ```
 Found best solution:
@@ -34,6 +34,8 @@ Found best solution:
 Iteration: 5/10, cost = 0.180959337731782
 ```
 The high cost suggests that, no matter how much we run the gradient descent, there will be overlaps, so we are likely not to have any solutions for 13 circles.
+## 2 dimensions
+Here are some solutions with drawings for the simpler case `DIMENSION=2`.
 
 ![5 circles](https://github.com/cateatingpancakes/circles/blob/main/outputs/5circles.png)
 This solution had 5 circles, and there seems to be space left over, so we should try more circles.
