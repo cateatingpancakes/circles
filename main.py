@@ -83,8 +83,8 @@ for center in zip(xs_min[::2], xs_min[1::2]):
     ax.add_patch(cir)
 
 # Add the center circle
-circle = plt.Circle((0, 0), 1, fill=False, color="black", zorder=1, lw=1.5)
-ax.add_patch(circle)
+cir = plt.Circle((0, 0), 1, fill=False, color="black", zorder=1, lw=1.5)
+ax.add_patch(cir)
 
 # Show the figure
 plt.show()
